@@ -8,6 +8,25 @@ It supports Python3.6.1+.
 
 The complete documentation is [here](https://github.com/shmokmt/app-store-connect-client/wiki).
 
+## Purpose
+
+This app extracts data from the Apple app store and writes it into a MySQL database. 
+
+## Modifications
+The original code from the "Getting Started"-section was modified and extended
+with options to collect data from different apps, collect different types of data,
+writing the data into a database and checking if all of the requested data was extracted.
+Also SQL-queries were provided, that write collected data into the database.
+
+The files that were not provided in the original version of the app are:
+
+date_finder.py
+db_connection.py
+run_client_v11.py
+sql_queries.py
+
+## This section was provided in the original version of the app: 
+
 ## Installation
 
 ```bash
@@ -58,15 +77,7 @@ print(json.dumps(results, indent=4))
 }
 ```
 
-## TODO
-* More tests
-* More Example
-* More docs
-* Support 2FA Authentication
-* Docstring
-* Support Review API
-* Support group_by method
-* Support filter_by method
+
 
 ## Credit
 
