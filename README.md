@@ -20,10 +20,10 @@ Also SQL-queries were provided, that write collected data into the database.
 
 The files that were not provided in the original version of the app are:
 
-date_finder.py
-db_connection.py
-run_client_v11.py
-sql_queries.py
+*  date_finder.py
+*  db_connection.py
+*  run_client_v11.py
+*  sql_queries.py
 
 ## This section was provided in the original version of the app: 
 
